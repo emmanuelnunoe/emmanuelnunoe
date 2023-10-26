@@ -1,0 +1,2 @@
+C:\Users\emmnu\OneDrive\Documents\GitHub\emmanuelnunoe\website\emmanuelnuno\obj\Debug\emmanuelnuno.esproj.SuggestedBindingRedirects.cache
+C:\Users\emmnu\OneDrive\Documents\GitHub\emmanuelnunoe\website\emmanuelnuno\obj\Debug\emmanuelnuno.esproj.CoreCompileInputs.cache
