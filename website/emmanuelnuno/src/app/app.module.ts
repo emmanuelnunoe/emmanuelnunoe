@@ -7,7 +7,7 @@ import { ComponentsModule } from 'src/app/components/components.module';
 
 /// material
 import { MatToolbarModule } from '@angular/material/toolbar';
-
+import { MatButtonModule } from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,10 +16,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatButtonModule,
     ComponentsModule
   ],
   providers: [],
-  exports: [MatToolbarModule],
+  exports: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

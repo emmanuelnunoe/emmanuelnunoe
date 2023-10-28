@@ -7,7 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
-
+import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
@@ -22,7 +22,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   ],
   imports: [
     CommonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule
   ],
   exports: [
     NavbarComponent,
