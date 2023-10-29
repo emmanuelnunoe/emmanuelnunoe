@@ -8,6 +8,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
 /// material
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatIconModule} from '@angular/material/icon';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +20,9 @@ import { MatButtonModule } from '@angular/material/button';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    ComponentsModule
+    MatMenuModule,
+    ComponentsModule,
+    MatIconModule
   ],
   providers: [],
   exports: [],

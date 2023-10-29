@@ -8,3 +8,14 @@
   <button mat-button>Services</button>
   <button mat-button>Skills</button>
 </mat-toolbar>
+
+
+
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>About Me</button>
+  <button mat-menu-item>Contact</button>
+  <button mat-menu-item>Projects</button>
+  <button mat-menu-item>Services</button>
+  <button mat-menu-item>Skills</button>
+</mat-menu>
