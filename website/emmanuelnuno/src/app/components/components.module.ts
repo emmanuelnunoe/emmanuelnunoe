@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import {LayoutModule} from '@angular/cdk/layout'; 
+import { MatDividerModule } from '@angular/material/divider';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import {LayoutModule} from '@angular/cdk/layout';
     MatButtonModule,
     MatMenuModule,
     MatIconModule,
-    LayoutModule
+    LayoutModule,
+    MatDividerModule
   ],
   exports: [
     NavbarComponent,

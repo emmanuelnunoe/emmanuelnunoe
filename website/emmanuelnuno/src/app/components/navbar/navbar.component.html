@@ -1,5 +1,5 @@
 <mat-toolbar role="heading">
-  <span>Emmanuel Nuño</span>
+  <span>EMMANUEL</span>
   <span class="example-spacer"></span>
   <div *ngIf=" currentScreenSize == 'Large' || currentScreenSize == 'XLarge' || currentScreenSize == 'Medium'">
 
@@ -10,14 +10,18 @@
     <button mat-button>Skills</button>
   </div>
 
-  <button mat-button [matMenuTriggerFor]="menu" *ngIf=" currentScreenSize == 'Small' || currentScreenSize == 'XSmall' ">Menu</button>
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item>About Me</button>
-    <button mat-menu-item>Contact</button>
-    <button mat-menu-item>Projects</button>
-    <button mat-menu-item>Services</button>
-    <button mat-menu-item>Skills</button>
-  </mat-menu>
+
+  <button mat-button [matMenuTriggerFor]="menu" *ngIf=" currentScreenSize == 'Small' || currentScreenSize == 'XSmall' ">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>About Me</button>
+      <button mat-menu-item>Contact</button>
+      <button mat-menu-item>Projects</button>
+      <button mat-menu-item>Services</button>
+      <button mat-menu-item>Skills</button>
+    </mat-menu>
 
 </mat-toolbar>
 
