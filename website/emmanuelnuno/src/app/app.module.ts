@@ -12,12 +12,10 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import {LayoutModule} from '@angular/cdk/layout'; 
 import { MatDividerModule } from '@angular/material/divider';
-import { MentionsComponent } from './component/mentions/mentions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MentionsComponent,
   ],
   imports: [
     BrowserModule,
