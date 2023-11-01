@@ -13,8 +13,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open navbar.component.html",
-            "file": "/home/emmanuel/Source/emmanuelnunoe/website/emmanuelnuno/src/app/components/navbar/navbar.component.html"
+            "name": "Open app.component.html",
+            "file": "/home/emmanuel/Source/emmanuelnunoe/website/emmanuelnuno/"
         }
     ]
 }
