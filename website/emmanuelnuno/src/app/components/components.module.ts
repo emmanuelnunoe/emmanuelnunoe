@@ -12,6 +12,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import {LayoutModule} from '@angular/cdk/layout'; 
 import { MatDividerModule } from '@angular/material/divider';
+import { MentionsComponent } from './mentions/mentions.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MatDividerModule } from '@angular/material/divider';
     ProjectsComponent,
     ContactComponent,
     AboutmeComponent,
-    NavbarComponent
+    NavbarComponent,
+    MentionsComponent
     
   ],
   imports: [
@@ -35,7 +37,11 @@ import { MatDividerModule } from '@angular/material/divider';
   ],
   exports: [
     NavbarComponent,
-    ServicesComponent
+    ServicesComponent,
+    SkillsComponent,
+    ProjectsComponent,
+    ContactComponent,
+    AboutmeComponent
   ]
 })
 export class ComponentsModule { }
