@@ -12,6 +12,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import {LayoutModule} from '@angular/cdk/layout'; 
 import { MatDividerModule } from '@angular/material/divider';
+import { MatCardModule } from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { MatDividerModule } from '@angular/material/divider';
     ComponentsModule,
     MatIconModule,
     LayoutModule,
-    MatDividerModule
+    MatDividerModule,
+    MatCardModule
   ],
   providers: [],
   exports: [],

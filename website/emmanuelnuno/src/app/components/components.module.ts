@@ -13,6 +13,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {LayoutModule} from '@angular/cdk/layout'; 
 import { MatDividerModule } from '@angular/material/divider';
 import { MentionsComponent } from './mentions/mentions.component';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { MentionsComponent } from './mentions/mentions.component';
     MatMenuModule,
     MatIconModule,
     LayoutModule,
-    MatDividerModule
+    MatDividerModule,
+    MatCardModule
   ],
   exports: [
     NavbarComponent,

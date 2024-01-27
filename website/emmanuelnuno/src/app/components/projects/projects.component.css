@@ -1,3 +1,23 @@
 .projects {
   background-color: #255b98;
 }
+
+.project-card{
+    max-width:400px;
+}
+
+.project-card-img{
+    max-width:350px;
+}
+
+.projects-subtitle{
+    color:whitesmoke;
+}
+
+
+.more-projects-button{
+    align-self:center;
+    margin: 50px 21em;
+    width:30%;
+}
+
