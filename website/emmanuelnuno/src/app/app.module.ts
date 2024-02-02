@@ -13,6 +13,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {LayoutModule} from '@angular/cdk/layout'; 
 import { MatDividerModule } from '@angular/material/divider';
 import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { MatCardModule } from '@angular/material/card';
     MatIconModule,
     LayoutModule,
     MatDividerModule,
-    MatCardModule
+    MatCardModule,
+    MatExpansionModule
   ],
   providers: [],
   exports: [],

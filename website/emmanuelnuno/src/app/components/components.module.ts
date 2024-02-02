@@ -14,6 +14,7 @@ import {LayoutModule} from '@angular/cdk/layout';
 import { MatDividerModule } from '@angular/material/divider';
 import { MentionsComponent } from './mentions/mentions.component';
 import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { MatCardModule } from '@angular/material/card';
     MatIconModule,
     LayoutModule,
     MatDividerModule,
-    MatCardModule
+    MatCardModule,
+    MatExpansionModule
   ],
   exports: [
     NavbarComponent,
