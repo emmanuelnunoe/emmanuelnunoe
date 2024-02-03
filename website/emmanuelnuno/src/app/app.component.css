@@ -1,6 +1,5 @@
 .welcome {
-  background-color: #7e997f;
-  color: whitesmoke;
+  background-image: linear-gradient(to bottom right, #ededed, #bfdeeb);
 }
 
 .welcome-text {
@@ -9,8 +8,8 @@
 }
 
 .mat--divider{
-    background-color:aliceblue;
-    width:40%;
+    background-color:#000000;
+    width:65%;
 }
 
 img {
@@ -18,12 +17,12 @@ img {
 }
 
 .profile-photo {
-  border-radius: 10%;
+  border-radius: 7%;
   max-width: 300px;
   width: 30%;
   align-self: flex-start;
-  border: 8px solid whitesmoke;
-  box-shadow: #000000b5 7px 7px 14px;
+  border: 7px solid whitesmoke;
+  box-shadow: #878787 0px 5px 10px;
   margin-bottom:2em;
 }
 
