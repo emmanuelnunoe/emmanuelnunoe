@@ -16,8 +16,9 @@
 
 .more-projects-button{
     align-self:center;
-    margin: 5em 45em;
+    margin: 5vw 34vw;
     width:20%;
+    max-width:400px;
 }
 
 p{

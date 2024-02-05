@@ -22,13 +22,13 @@ body {
 }
 
 h1 {
-  font-size: 3.5rem !important;
+  font-size: 3vw !important;
   margin-top: 0;
 }
 
 
 h2 {
-  font-size: 2rem !important;
+  font-size: 2vw !important;
 }
 
 .container {
@@ -44,4 +44,25 @@ h2 {
 
 .section {
   padding: 100px 0;
+}
+
+
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  z-index:1
+}
+
+
+@media (max-width: 599px){
+    h1{
+      font-size:6vw !important; 
+    }
+
+    h2{
+        font-size: 4vw !important;
+    }
+    .row{
+        display:block;
+    }
 }
