@@ -53,11 +53,11 @@ h2 {
 
 @media (max-width: 599px){
     h1{
-      font-size:6vw !important; 
+      font-size:7vw !important; 
     }
 
     h2{
-        font-size: 4vw !important;
+        font-size: 5vw !important;
     }
     .row{
         display:block;
@@ -68,6 +68,10 @@ h2 {
       color: whitesmoke !important;
       transition: ease-in 0.3s !important;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust shadow for the scrolled state */
+    }
+
+    mat-divider{
+        width:100% !important;
     }
 
     .contact-button {
