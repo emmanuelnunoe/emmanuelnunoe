@@ -19,15 +19,9 @@ img {
 .profile-photo {
   border-radius: 7%;
   max-width: 300px;
-  width: 30%;
+  width: 80%;
   align-self: flex-start;
   border: 7px solid whitesmoke;
   box-shadow: #878787 0px 5px 10px;
   margin-bottom:2em;
 }
-
-.contact-button{
-    width:30%;
-}
-
-

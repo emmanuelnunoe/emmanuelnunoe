@@ -1,41 +1,44 @@
 <div class="skills section" id="skills">
   <div class="row container">
     <h2>SKILLS</h2>
-    <mat-accordion  class="front-end">
+    <div class="description">
 
-        <mat-expansion-panel  (opened)="frontEndPanelState = true"
-                               (closed)="frontEndPanelState = false">
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              Front-end
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-          <ul class="content">
-            <li>Angular</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-          </ul>
-        </mat-expansion-panel>
-    </mat-accordion>
+      <mat-accordion class="front-end">
 
-    <mat-accordion class="back-end">
+          <mat-expansion-panel  (opened)="frontEndPanelState = true"
+                                 (closed)="frontEndPanelState = false">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Front-end
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <ul class="content">
+              <li>Angular</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </mat-expansion-panel>
+      </mat-accordion>
 
-        <mat-expansion-panel (opened)="backendPanelState = true"
-                             (closed)="backendPanelState = false">
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              Back-end
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-          <ul class="content">
-            <li>C#</li>
-            <li>.NET core</li>
-            <li>ASP.NET</li>
-            <li>SQL</li>
-          </ul>
-        </mat-expansion-panel>
-    </mat-accordion>
+      <mat-accordion class="back-end">
+
+          <mat-expansion-panel (opened)="backendPanelState = true"
+                               (closed)="backendPanelState = false">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Back-end
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <ul class="content">
+              <li>C#</li>
+              <li>.NET core</li>
+              <li>ASP.NET</li>
+              <li>SQL</li>
+            </ul>
+          </mat-expansion-panel>
+      </mat-accordion>
+    </div>
 
 
     </div>
