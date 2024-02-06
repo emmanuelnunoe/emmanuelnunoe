@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ServicesComponent } from './services/services.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
@@ -19,7 +18,6 @@ import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
-    ServicesComponent,
     SkillsComponent,
     ProjectsComponent,
     ContactComponent,
@@ -41,7 +39,6 @@ import { MatExpansionModule } from '@angular/material/expansion';
   ],
   exports: [
     NavbarComponent,
-    ServicesComponent,
     SkillsComponent,
     ProjectsComponent,
     ContactComponent,

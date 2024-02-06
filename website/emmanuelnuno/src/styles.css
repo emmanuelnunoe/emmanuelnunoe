@@ -47,12 +47,6 @@ h2 {
 }
 
 
-mat-toolbar {
-  position: fixed;
-  top: 0;
-  z-index:1;
-}
-
 
 @media (max-width: 599px){
     h1{
@@ -66,9 +60,10 @@ mat-toolbar {
         display:block;
     }
 
-    mat-toolbar{
-       background-color:#333 !important;
-       color:whitesmoke !important;
-       transition: ease-in 0.3s !important;
-    }
+  mat-toolbar {
+    background-color: #333 !important;
+    color: whitesmoke !important;
+    transition: ease-in 0.3s !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust shadow for the scrolled state */
+  }
 }
