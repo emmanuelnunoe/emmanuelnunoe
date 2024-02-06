@@ -74,6 +74,10 @@ h2 {
       width: 80%;
     }
 
+    .description{
+        width:80% !important;
+    }
+
 }
 
 .description {
