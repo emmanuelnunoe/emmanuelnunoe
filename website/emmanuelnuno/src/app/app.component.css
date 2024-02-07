@@ -17,11 +17,11 @@ img {
 }
 
 .profile-photo {
-  border-radius: 7%;
+  border-radius: 5%;
   max-width: 300px;
   width: 80%;
   align-self: flex-start;
   border: 7px solid whitesmoke;
   box-shadow: #878787 0px 5px 10px;
-  margin-bottom:2em;
+  margin-bottom:1em;
 }

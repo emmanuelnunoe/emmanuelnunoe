@@ -1,0 +1,22 @@
+.email-box {
+  background-color: #ebedee;
+  border-radius:3px;
+  width: 70%;
+}
+
+.copy-button, .email-box{
+    padding:1em;
+}
+
+.copy-button{
+    width:27%;
+    margin-left:.5em;
+}
+
+
+
+@media (max-width:599px){
+    .email-box{
+        width:100%
+    }
+}
