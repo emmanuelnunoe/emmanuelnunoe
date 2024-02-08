@@ -3,9 +3,10 @@
 
     <h2>CONTACT</h2>
     <div class="description">
-       <div>
-          <p class="email-box">enunospace@gmail.com <button mat-raised-button class="copy-button">copy</button></p>
-       </div>
+      <div class="email">
+        <p class="email-box" #textToCopy id="textToCopy" type="text" value="enunospace@gmail.com">enunospace@gmail.com</p>
+        <button mat-raised-button class="copy-button" (click)="copyToClipboard()">copy</button>
+      </div>
     </div>
   </div>
 </div>

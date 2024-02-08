@@ -1,19 +1,22 @@
+.email{
+    display:flex !important;
+}
+
 .email-box {
   background-color: #ebedee;
   border-radius:3px;
-  width: 70%;
+  width: 40%;
 }
 
-.copy-button, .email-box{
+.email-box{
     padding:1em;
 }
 
 .copy-button{
-    width:27%;
+    width:20%;
     margin-left:.5em;
+    padding:1.8em;
 }
-
-
 
 @media (max-width:599px){
     .email-box{
