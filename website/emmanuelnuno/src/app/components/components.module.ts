@@ -14,7 +14,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MentionsComponent } from './mentions/mentions.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
-
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     ContactComponent,
     AboutmeComponent,
     NavbarComponent,
-    MentionsComponent
+    MentionsComponent,
+    FooterComponent
     
   ],
   imports: [
@@ -42,7 +43,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     SkillsComponent,
     ProjectsComponent,
     ContactComponent,
-    AboutmeComponent
+    AboutmeComponent,
+    FooterComponent
   ]
 })
 export class ComponentsModule { }

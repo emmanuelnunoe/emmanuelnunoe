@@ -18,6 +18,11 @@
     padding:1.8em;
 }
 
+
+  .copy-button.clicked {
+    background-color: greenyellow;
+  }
+
 @media (max-width:599px){
     .email-box{
         width:100%
