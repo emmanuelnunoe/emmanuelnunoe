@@ -48,6 +48,7 @@ h2 {
 
 .contact-button {
   width: 30%;
+  padding:2.7% !important;
 }
 
 
@@ -74,9 +75,10 @@ h2 {
         width:100% !important;
     }
 
-    .contact-button {
-      width: 80%;
-    }
+  .contact-button {
+    width: 90%;
+    padding: 6% !important;
+  }
 
     .description{
         width:95% !important;
