@@ -7,3 +7,18 @@ mat-toolbar {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
+
+.logo{
+    width:2vw;
+    margin:1vw;
+}
+
+
+
+@media (max-width:599px){
+  .logo {
+    width: 8vw;
+    margin: 1vw;
+  }
+
+}
