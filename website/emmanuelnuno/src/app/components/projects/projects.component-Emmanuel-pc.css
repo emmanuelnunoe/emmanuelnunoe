@@ -1,0 +1,24 @@
+.projects {
+  background-image: linear-gradient(to bottom right, #bfdeeb, #ededed);
+}
+
+.project-card{
+    max-width:400px;
+}
+
+.project-card-img{
+    max-width:350px;
+}
+
+.projects-subtitle{
+}
+
+
+.more-projects-button{
+    margin: 2em 22.3em;
+    width:20%;
+}
+
+p{
+    font-size:1rem !important;
+}
